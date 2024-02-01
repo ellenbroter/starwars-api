@@ -1,0 +1,13 @@
+@font-face {
+	font-family: 'Prophet';
+	src: url("/assets/fonts/ABCProphetEdu-Medium.woff2");
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Diatype';
+	src: url("/assets/fonts/ABCDiatypeEdu-Regular.woff2");
+	font-weight: 300;
+	font-style: normal;
+}

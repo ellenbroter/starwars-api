@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="/styles/styles.css">
+		<link rel="stylesheet" href="/styles/reset.css">
+		<link rel="stylesheet" href="/styles/fonts.css">
+		<title>Star Wars API by Ellen Brøter</title>
+	</head>
+	<body>
+		<header>
+			<a href="/index.html" target="_self">
+				<img src="/assets/images/sw_logo.png" class="sw-logo" alt="Star Wars logo">
+			</a>
+		</header>
+		
+		<ul class="menu-buttons">
+			<li>
+				<a href="/pages/films.html">
+					<button class="menu-button">
+						Films
+					</button>
+				</a>
+			</li>
+			
+			<li>
+				<a href="/pages/people.html">
+					<button class="menu-button">
+						People
+					</button>
+				</a>
+			</li>
+			
+			<li>
+				<a href="/pages/planets.html">
+					<button class="menu-button">
+						Planets
+					</button>
+				</a>
+			</li>
+			
+			<li>
+				<a href="/pages/vehicles.html">
+					<button class="menu-button">
+						Vehicles
+					</button>
+				</a>
+			</li>
+		</ul>
+
+		<main class="parent">
+			<div class="card">
+				<img src="/assets/images/planets/tatooine.jpeg" alt="Tatoonie">
+				<ul>
+					<li><h2 class="card__planet1-name"></h2></li>
+					<li><h3>Rotation period:</h3><span class="card__planet1-rot"></span></li>
+					<li><h3>Diameter:</h3><span class="card__planet1-dia"></span></li>
+					<li><h3>Climate:</h3><span class="card__planet1-cli"></span></li>
+					<li><h3>Terrain:</h3><span class="card__planet1-ter"></span></li>
+				</ul>
+			</div>
+			<div class="card">
+				<img src="/assets/images/planets/alderaan.jpeg" alt="Alderaan">
+				<ul>
+					<li><h2 class="card__planet2-name"></h2></li>
+					<li><h3>Rotation period:</h3><span class="card__planet2-rot"></span></li>
+					<li><h3>Diameter:</h3><span class="card__planet2-dia"></span></li>
+					<li><h3>Climate:</h3><span class="card__planet2-cli"></span></li>
+					<li><h3>Terrain:</h3><span class="card__planet2-ter"></span></li>
+				</ul>
+			</div>
+			<div class="card">
+				<img src="/assets/images/planets/yavin.jpeg" alt="Yavin">
+				<ul>
+					<li><h2 class="card__planet3-name"></h2></li>
+					<li><h3>Rotation period:</h3><span class="card__planet3-rot"></span></li>
+					<li><h3>Diameter:</h3><span class="card__planet3-dia"></span></li>
+					<li><h3>Climate:</h3><span class="card__planet3-cli"></span></li>
+					<li><h3>Terrain:</h3><span class="card__planet3-ter"></span></li>
+				</ul>
+			</div>
+			<div class="card">
+				<img src="/assets/images/planets/hoth.jpeg" alt="Hoth">
+				<ul>
+					<li><h2 class="card__planet4-name"></h2></li>
+					<li><h3>Rotation period:</h3><span class="card__planet4-rot"></span></li>
+					<li><h3>Diameter:</h3><span class="card__planet4-dia"></span></li>
+					<li><h3>Climate:</h3><span class="card__planet4-cli"></span></li>
+					<li><h3>Terrain:</h3><span class="card__planet4-ter"></span></li>
+				</ul>
+			</div>
+			<div class="card">
+				<img src="/assets/images/planets/dagobah.jpeg" alt="Dagobah">
+				<ul>
+					<li><h2 class="card__planet5-name"></h2></li>
+					<li><h3>Rotation period:</h3><span class="card__planet5-rot"></span></li>
+					<li><h3>Diameter:</h3><span class="card__planet5-dia"></span></li>
+					<li><h3>Climate:</h3><span class="card__planet5-cli"></span></li>
+					<li><h3>Terrain:</h3><span class="card__planet5-ter"></span></li>
+				</ul>
+			</div>
+			<div class="card">
+				<img src="/assets/images/planets/bespin.jpeg" alt="Bespin">
+				<ul>
+					<li><h2 class="card__planet6-name"></h2></li>
+					<li><h3>Rotation period:</h3><span class="card__planet6-rot"></span></li>
+					<li><h3>Diameter:</h3><span class="card__planet6-dia"></span></li>
+					<li><h3>Climate:</h3><span class="card__planet6-cli"></span></li>
+					<li><h3>Terrain:</h3><span class="card__planet6-ter"></span></li>
+				</ul>
+			</div>
+		</main>
+		<span class="error-message"></span>
+		<footer>
+			<p>May the force be with you!</p>
+			<p>Credit to <a href="https://swapi.dev/" target="_blank">SWAPI</a> for API and <a href="https://www.starwars.com/databank" target="_blank">STAR WARS Databank</a> for images.</p>
+		</footer>
+
+		<script src="/js/planets.js"></script>
+	</body>
+</html>

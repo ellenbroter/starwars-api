@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="/styles/styles.css">
+		<link rel="stylesheet" href="/styles/reset.css">
+		<link rel="stylesheet" href="/styles/fonts.css">
+		<title>Star Wars API by Ellen Brøter</title>
+	</head>
+	<body>
+		<header>
+			<a href="/index.html" target="_self">
+				<img src="/assets/images/sw_logo.png" class="sw-logo" alt="Star Wars logo">
+			</a>
+		</header>
+
+		<ul class="menu-buttons">
+			<li>
+				<a href="/pages/films.html">
+					<button class="menu-button">
+						Films
+					</button>
+				</a>
+			</li>
+			
+			<li>
+				<a href="/pages/people.html">
+					<button class="menu-button">
+						People
+					</button>
+				</a>
+			</li>
+			
+			<li>
+				<a href="/pages/planets.html">
+					<button class="menu-button">
+						Planets
+					</button>
+				</a>
+			</li>
+			
+			<li>
+				<a href="/pages/vehicles.html">
+					<button class="menu-button">
+						Vehicles
+					</button>
+				</a>
+			</li>
+		</ul>
+
+		<main class="parent">
+			<div class="card">
+				<img src="/assets/images/films/a-new-hope.png" class="card-image" alt="A New Hope movie poster">
+				<ul>
+					<li><h2 class="card__film1-title"></h2></li>
+					<li><h3>Director:</h3><span class="card__film1-dir"></span></li>
+					<li><h3>Producers:</h3><span class="card__film1-prod"></span></li>
+					<li><h3>Release date:</h3><span class="card__film1-date"></span></li>
+					<li><h3>Episode number:</h3><span class="card__film1-num"></span></li>
+				</ul>
+			</div>
+			<div class="card">
+				<img src="/assets/images/films/the-empire-strikes-back.png" class="card-image" alt="The Empire strikes back movie poster">
+				<ul>
+					<li><h2 class="card__film2-title"></h2></li>
+					<li><h3>Director:</h3><span class="card__film2-dir"></span></li>
+					<li><h3>Producers:</h3><span class="card__film2-prod"></span></li>
+					<li><h3>Release date:</h3><span class="card__film2-date"></span></li>
+					<li><h3>Episode number:</h3><span class="card__film2-num"></span></li>
+				</ul>
+			</div>
+			<div class="card">
+				<img src="/assets/images/films/return-of-the-jedi.png" class="card-image" alt="Return of the Jedi movie poster">
+				<ul>
+					<li><h2 class="card__film3-title"></h2></li>
+					<li><h3>Director:</h3><span class="card__film3-dir"></span></li>
+					<li><h3>Producers:</h3><span class="card__film3-prod"></span></li>
+					<li><h3>Release date:</h3><span class="card__film3-date"></span></li>
+					<li><h3>Episode number:</h3><span class="card__film3-num"></span></li>
+				</ul>
+			</div>
+			<div class="card">
+				<img src="/assets/images/films/the-phantom-menace.png" class="card-image" alt="The Phantom Menace movie poster">
+				<ul>
+					<li><h2 class="card__film4-title"></h2></li>
+					<li><h3>Director:</h3><span class="card__film4-dir"></span></li>
+					<li><h3>Producers:</h3><span class="card__film4-prod"></span></li>
+					<li><h3>Release date:</h3><span class="card__film4-date"></span></li>
+					<li><h3>Episode number:</h3><span class="card__film4-num"></span></li>
+				</ul>
+			</div>
+			<div class="card">
+				<img src="/assets/images/films/attack-of-the-clones.png" class="card-image" alt="Attack of the Clones movie poster">
+				<ul>
+					<li><h2 class="card__film5-title"></h2></li>
+					<li><h3>Director:</h3><span class="card__film5-dir"></span></li>
+					<li><h3>Producers:</h3><span class="card__film5-prod"></span></li>
+					<li><h3>Release date:</h3><span class="card__film5-date"></span></li>
+					<li><h3>Episode number:</h3><span class="card__film5-num"></span></li>
+				</ul>
+			</div>
+			<div class="card">
+				<img src="/assets/images/films/revenge-of-the-sith.png" class="card-image" alt="Revenge of the Sith movie poster">
+				<ul>
+					<li><h2 class="card__film6-title"></h2></li>
+					<li><h3>Director:</h3><span class="card__film6-dir"></span></li>
+					<li><h3>Producers:</h3><span class="card__film6-prod"></span></li>
+					<li><h3>Release date:</h3><span class="card__film6-date"></span></li>
+					<li><h3>Episode number:</h3><span class="card__film6-num"></span></li>
+				</ul>
+			</div>
+			
+		</main>
+		<span class="error-message"></span>
+		<footer>
+			<p>May the force be with you!</p>
+			<p>Credit to <a href="https://swapi.dev/" target="_blank">SWAPI</a> for API and <a href="https://www.starwars.com/databank" target="_blank">STAR WARS Databank</a> for images.</p>
+		</footer>
+
+		<script src="/js/films.js"></script>
+	</body>
+</html>

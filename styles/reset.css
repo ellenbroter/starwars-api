@@ -1,0 +1,30 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+img {
+	width: 100%;
+}
+
+input, button, textarea, select {
+	font: inherit;
+	outline: none;
+}
+
+button {
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	touch-action: manipulation;
+}
+
+li {
+	list-style: none;
+}
