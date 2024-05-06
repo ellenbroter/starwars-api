@@ -6,7 +6,7 @@ const fetchFilmData = (filmNumber) => {
     .then((data) => displayFilmData(data, filmNumber))
     .catch((error) => {
       const errorMessage = document.querySelector('.error-film');
-      errorMessage.textContent = "Error! Something went wrong.";
+      errorMessage.textContent = "Error! Something went wrong with loading the API.";
       console.log(error);
     });
 };
